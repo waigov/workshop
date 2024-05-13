@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20240219T090000
+DTEND;TZID=Europe/Amsterdam:20240220T180000
+DTSTAMP:20240213T130135Z
+ORGANIZER;CN=FAIR - Spoke 1:mailto:c_6a1ead6ffd910c80d2bedadb74ff2029b7d42e
+ 1e458c5d0441a4964fc62de762@group.calendar.google.com
+UID:14q4ie4hns7kkfa853t2nks2tv@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=setzu.mattia@gmail.com;X-NUM-GUESTS=0:mailto:setzu.mattia@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:1597360549
+CREATED:20240213T130133Z
+DESCRIPTION:<b>Website</b> <a href="https://www.google.com/url?q=https://wu
+ cai-workshop-on-human-centered-ai.github.io/web/&amp\;sa=D&amp\;source=cale
+ ndar&amp\;ust=1708261269877533&amp\;usg=AOvVaw1hwGMXUAQgb0z-G-JnSurg" targe
+ t="_blank">https://wucai-workshop-on-human-centered-ai.github.io/web/</a><b
+ r><b>Program</b> <a href="https://www.google.com/url?q=https://wucai-worksh
+ op-on-human-centered-ai.github.io/web/program/&amp\;sa=D&amp\;source=calend
+ ar&amp\;ust=1708261269877533&amp\;usg=AOvVaw12w3j_5uPbFvQXfNI6DkHn" target=
+ "_blank">https://wucai-workshop-on-human-centered-ai.github.io/web/program/
+ </a><br><b>When and Where</b> Monday 19th and Tuesday 20th in Aula Magna\, 
+ Polo Fibonacci\, Pisa <a href="https://www.google.com/url?q=https://wucai-w
+ orkshop-on-human-centered-ai.github.io/web/location/&amp\;sa=D&amp\;source=
+ calendar&amp\;ust=1708261269877533&amp\;usg=AOvVaw0wsQLprajxCK0b0DPpt4cj" t
+ arget="_blank">https://wucai-workshop-on-human-centered-ai.github.io/web/lo
+ cation/</a><br><b>Subscription</b> Free\, required for onsite participation
+ . Closes on the 15th!<br><b>Stream</b> Available <a href="https://www.googl
+ e.com/url?q=https://teams.microsoft.com/l/meetup-join/19%253aVcJWeicz4i35yI
+ k4ssT3DoTuCxQjHO26Fzy8rCAWZ9M1%2540thread.tacv2/1707744650663?context%3D%25
+ 7b%2522Tid%2522%253a%2522c7456b31-a220-47f5-be52-473828670aa1%2522%252c%252
+ 2Oid%2522%253a%2522729b4d16-0567-46a8-a742-d2ae1bf09a4a%2522%257d&amp\;sa=D
+ &amp\;source=calendar&amp\;ust=1708261269877533&amp\;usg=AOvVaw3kY8_Ros3LDG
+ T2rxDNbSfY" target="_blank">here</a>!
+LAST-MODIFIED:20240213T130133Z
+LOCATION:Aula Magna @ Polo Fibonacci\, Via Filippo Buonarroti\, 3\, 56127 P
+ isa PI\, Italy
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:WUCAI - Fair Workshop on Human-Centered AI
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

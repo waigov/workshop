@@ -1,0 +1,128 @@
+:root {
+    --fairblue: #64a9dd;
+    --fairred: #eb6666;
+    --fairorange: #f8b258;
+    --fairpurple: #78579f;
+
+    --wp1: #78579f;
+    --wp2: #9f578d;
+    --wp3: #eb6666;
+    --wp4: #eb8a66;
+    --wp5: #f8b258;
+    --wp6: #64a9dd;
+}
+
+
+.time {
+    margin-right: 0.5em;
+    padding: 2px 5px;
+
+    color: darkgray;
+}
+
+
+/* **************** */
+/* List of posters */
+/* **************** */
+.posters a {
+    color: black;
+}
+
+.poster.wp1 a:hover {
+    color: var(--wp1);
+}
+
+.poster.wp2 a:hover {
+    color: var(--wp2);
+}
+
+.poster.wp3 a:hover {
+    color: var(--wp3);
+}
+
+.poster.wp4 a:hover {
+    color: var(--wp4);
+}
+
+.poster.wp5 a:hover {
+    color: var(--wp5);
+}
+
+.poster.wp6 a:hover {
+    color: var(--wp6);
+}
+
+
+.poster.keynote .wp,
+.poster.Highlights .wp,
+.poster.keynote .task {
+    display: none;
+}
+
+
+.poster .block {
+    float: right;
+    text-align: right;
+}
+
+.poster .title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.segments span.speaker {
+    display: block;
+    color: darkgray;
+}
+
+.ui.segment.poster {
+    margin-top: 0;
+}
+
+.poster .wp::before {
+    content: "WP: ";
+}
+
+.poster .task::before {
+    content: ", Task: ";
+}
+
+.poster .rightside *,
+.poster .block {
+    color: darkgray;
+}
+
+.poster .location {
+    display: block;
+}
+
+p.presenter {
+    margin-bottom: 0;
+}
+
+/* indenting single highlight */
+/* .posters .poster:nth-child(n + 2) {
+    width: 90% !important;
+    margin-left: 10% !important;
+} */
+
+/* .posters .poster:nth-child(n + 2) .column:nth-child(1) {
+    padding-left: 5%;
+} */
+
+
+/* .posters .poster .to, */
+.posters .poster .wp,
+.posters .poster .task,
+.posters .poster .location {
+    display: none;
+}
+
+.segments.posters {
+    border: none;
+    box-shadow: none;
+}
+
+footer img {
+    max-height: 60px;
+}

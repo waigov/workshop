@@ -1,0 +1,11 @@
+:root {
+    --fairblue: #64a9dd;
+    --fairred: #eb6666;
+    --fairorange: #f8b258;
+    --fairpurple: #78579f;
+}
+
+/* .btn-outline-primary {
+    color: var(--fairred);
+    border-color: var(--fairred);   
+} */

@@ -1,0 +1,48 @@
+:root {
+    --fairblue: #64a9dd;
+    --fairred: #eb6666;
+    --fairorange: #f8b258;
+    --fairpurple: #78579f;
+
+    --wp1: #78579f;
+    --wp2: #9f578d;
+    --wp3: #eb6666;
+    --wp4: #eb8a66;
+    --wp5: #f8b258;
+    --wp6: #64a9dd;
+}
+
+
+/* title of talk in bold */
+ul li .mb-0:nth-child(1) {
+    font-weight: bold;
+}
+
+/* presenters of talk in italic */
+ul li .mb-0:nth-child(2) {
+    font-style: italic;
+}
+
+span.border-soft-wp1 {
+    border-bottom: 3px solid var(--wp1);
+}
+
+span.border-soft-wp2 {
+    border-bottom: 3px solid var(--wp2);
+}
+
+span.border-soft-wp3 {
+    border-bottom: 3px solid var(--wp3);
+}
+
+span.border-soft-wp4 {
+    border-bottom: 3px solid var(--wp4);
+}
+
+span.border-soft-wp5 {
+    border-bottom: 3px solid var(--wp5);
+}
+
+span.border-soft-wp6 {
+    border-bottom: 3px solid var(--wp6);
+}

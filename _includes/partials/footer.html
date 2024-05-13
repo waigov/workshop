@@ -1,0 +1,60 @@
+
+</main>
+<footer class="container">
+  <h3>Fondazione FAIR</h3>
+<div class="ui four column doubling stackable grid container small images centered">
+  <div class="column">
+    <img class="ui small centered image" src="{{ site.baseurl }}/assets/css/images/eunextgen.svg">
+  </div>
+  <div class="column">
+    <img class="ui small centered image" src="{{ site.baseurl }}/assets/css/images/miur.svg">
+  </div>
+  <div class="column">
+    <img class="ui small centered image" src="{{ site.baseurl }}/assets/css/images/italiadomani.svg">
+  </div>
+  <div class="column">
+    <img class="ui small centered image" src="{{ site.baseurl }}/assets/css/images/faircolored.svg">
+  </div>
+</div>
+
+
+<div class="ui one column doubling stackable grid container images centered">
+  <div class="column">
+    <h3>Organized by University of Pisa in partnership with The Global Partnership on Artificial Intelligence</h3>
+    <img class="ui centered image" src="{{ site.baseurl }}/assets/css/images/unipi_full.svg">
+    <img class="ui centered image" src="{{ site.baseurl }}/assets/css/images/gpai.png">
+  </div>
+</div>
+
+
+<style>
+  footer .box {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+  }
+
+  footer .box p {
+    margin-bottom: 0;
+  }
+</style>
+  
+<div class="box bg-light">
+  <!-- <p>Workshop organizers: Dino Pedreschi, Francesco Marcelloni, Camilla Sovani.</p> -->
+  <p>Design made with <3 by <a href="https://msetzu.github.io/about">Mattia Setzu</a>. Template by <a href="https://github.com/DigitaleGesellschaft/jekyll-theme-conference">Digitale Gesellschaft</a>.</p>
+  <p>Banner by Daniele Fadda with Adobe Firefly (Responsible Generative AI).</p>
+</div>
+  
+</footer>
+
+{%- include partials/modal_link.html -%}
+
+{%- if site.conference.live.streaming.enable -%}
+{%- include partials/modal_live.html -%}
+{%- endif -%}
+
+<!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+<script src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: "%s" }}"></script>
+
+</body>
+</html>

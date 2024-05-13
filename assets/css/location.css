@@ -1,0 +1,18 @@
+p.building {
+    font-style: italic;
+}
+p.building {
+    font-style: bold;
+}
+
+
+/* location marker */
+.leaflet-marker-icon {
+    width: 41px !important;
+    height: 41px !important;
+}
+
+/* no need to show a shadow */
+.leaflet-shadow-pane {
+    display: none;
+}

@@ -1,0 +1,7 @@
+---
+name: Raja Chatila
+first_name: Raja
+last_name: Chatila
+affiliation: Pierre and Marie Curie University
+---
+Raja Chatila is Professor emeritus at Sorbonne Université. He is former Director of the Institute of Intelligent Systems and Robotics (ISIR) and of the Laboratory of Excellence “SMART” on human-machine interaction. He was director of LAAS-CNRS, Toulouse France, in 2007-2010. His research covers several aspects of Robotics in robot navigation and SLAM, motion planning and control, cognitive and control architectures, human-robot interaction, machine learning, and ethics. He  works on robotics projects in the areas of service, field, aerial and space robotics. He is author of over 170 international publications on these topics. Current and recent projects: HumanE AI Net the network of excellence of AI centers in Europe, AI4EU promoting AI in Europe,  AVETHICS on the ethics of automated vehicle decisions, Roboergosum on robot self-awareness and Spencer on human-robot interaction in populated environments. He was President of the IEEE Robotics and Automation Society for the term 2014-2015. He is co-chair of the Responsible AI Working group in the Global Partnership on AI (GPAI) and member of the French National Pilot Committee for Digital Ethics (CNPEN). He is chair of the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems. He was member of the High Level Expert Group in AI with the European Commission (HLEG-AI). Honors: IEEE Fellow, IEEE Pioneer Award in Robotics and Automation, Honorary Doctor of Örebro University (Sweden).

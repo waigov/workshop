@@ -1,0 +1,27 @@
+:root {
+    --fairblue: #64a9dd;
+    --fairred: #eb6666;
+    --fairorange: #f8b258;
+    --fairpurple: #78579f;
+}
+
+.navbar .navbar-nav.mr-auto > li:nth-child(1) a:hover {
+    background: var(--fairblue) !important;
+    border-radius: 3px;
+}
+
+.navbar .navbar-nav.mr-auto > li:nth-child(2) a:hover {
+    background: var(--fairred) !important;
+    border-radius: 3px;
+}
+
+.navbar .navbar-nav.mr-auto > li:nth-child(3) a:hover {
+    background: var(--fairorange) !important;
+    border-radius: 3px;
+}
+
+.navbar .navbar-nav.mr-auto > li:nth-child(4) a:hover {
+    background: var(--fairpurple) !important;
+    color: white !important;
+    border-radius: 3px;
+}

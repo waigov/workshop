@@ -1,0 +1,114 @@
+:root {
+    --fairblue: #64a9dd;
+    --fairred: #eb6666;
+    --fairorange: #f8b258;
+    --fairpurple: #78579f;
+
+    --wp1: #78579f;
+    --wp2: #9f578d;
+    --wp3: #eb6666;
+    --wp4: #eb8a66;
+    --wp5: #f8b258;
+    --wp6: #64a9dd;
+
+    --keynote: #77b359;
+    --Highlights: #77b359;
+    --posters: black;
+}
+
+
+/* titles in bold */
+p.mb-2  {
+    font-weight: bold !important;
+}
+
+p.font-weight-light.mb-2 {
+    font-weight: 100 !important;
+}
+
+/* Hide smaller time counts on the left bar */
+.text-muted {
+    color: white !important;
+}
+
+/* hide vertical bars on every minor time tick */
+td.p-0 {
+    border: none !important;
+}
+
+/* hide ALL vertical bars on time tick */
+table th {
+    border: none !important;
+}
+
+/* hide all borders */
+.table th, .table td {
+    border-top: none !important;
+}
+
+table.mb-0.mx-auto * {
+    background: #f2f2f2 !important;
+}
+
+table.mb-0.mx-auto {
+    border-bottom: 1px solid lightgray;
+}
+
+/* coloring boxed in program according to their Wp */
+td.alert-wp1 {
+    border-left: 5px solid var(--wp1) !important;
+    /* color: white; */
+}
+
+td.alert-wp2 {
+    border-left: 5px solid  var(--wp2) !important;
+}
+
+td.alert-wp3 {
+    border-left: 5px solid  var(--wp3) !important;
+}
+
+td.alert-wp4 {
+    border-left: 5px solid  var(--wp4) !important;
+}
+
+td.alert-wp5 {
+    border-left: 5px solid  var(--wp5) !important;
+}
+
+td.alert-wp6 {
+    border-left: 5px solid  var(--wp6) !important;
+}
+
+td.alert-keynote,
+td.alert-Highlights {
+    border-left: 5px solid  var(--keynote) !important;
+}
+
+td.alert-posters {
+    border-left: 5px solid  var(--posters) !important;
+}
+
+.segment.poster.colorful {
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg,
+                                rgba(100,169,221,1) 0%,
+                                rgba(235,102,102,1) 33%,
+                                rgba(248,178,88,1) 66%,
+                                rgba(120,87,159,1) 100%);
+    border-image-slice: 1;
+    height:100%;
+}
+
+.segment.poster.postersession {
+    border-left: 5px solid black;
+}
+
+/* resize columns */
+.segments .segment .column:nth-child(1) {
+    width: 70% !important;
+}
+
+.segments .segment .column:nth-child(2) {
+    width: 30% !important;
+}
